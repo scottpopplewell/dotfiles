@@ -1,5 +1,6 @@
 call plug#begin('~/.vim/plugged')
 	Plug 'shime/vim-livedown'
+  Plug 'tpope/vim-liquid'
 call plug#end()
   
 set nocompatible
