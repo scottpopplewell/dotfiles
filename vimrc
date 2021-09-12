@@ -1,6 +1,7 @@
 call plug#begin('~/.vim/plugged')
 	Plug 'shime/vim-livedown'
   Plug 'tpope/vim-liquid'
+  Plug 'scrooloose/nerdtree'
 call plug#end()
   
 set nocompatible
@@ -17,3 +18,8 @@ set tabstop=2
 set softtabstop=2
 " when indenting with '>', use 2 spaces width
 set shiftwidth=2
+
+
+" NERDTree
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
